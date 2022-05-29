@@ -1,8 +1,6 @@
 # Medi Check
 ## An app where you can get appointments from regsitered doctors, get disease prediction from symptoms, and find nearest doctors avaiable from top 5 hospitals in Karachi.
 
-The Apis will expire on 25/08/2022.
-
 - Framework: Flutter
 - Architecture: MVVM
 - Storage: Cloud Firestore
