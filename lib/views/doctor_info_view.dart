@@ -317,7 +317,7 @@ class DoctorInfoView extends StatelessWidget {
                 const SizedBox(width: 20),
                 Expanded(
                   child: GestureDetector(
-                    onTap: () => model.getAppointment(),
+                    onTap: () => model.openMaps(),
                     child: Container(
                       height: 60,
                       alignment: Alignment.center,
