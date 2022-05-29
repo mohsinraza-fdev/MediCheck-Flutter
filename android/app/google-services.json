@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "239921726533",
+    "project_id": "medicheck-e40f4",
+    "storage_bucket": "medicheck-e40f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239921726533:android:cb44885a60a8df2d59cf2c",
+        "android_client_info": {
+          "package_name": "com.example.medicheck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239921726533-1lgi1p5uqkja4h77ca1aufc9qstfspjk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_ZaLBScR3ej9ElhDKp5HT3dLTOqEA9uQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239921726533-1lgi1p5uqkja4h77ca1aufc9qstfspjk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
