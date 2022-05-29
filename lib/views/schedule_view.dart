@@ -50,23 +50,23 @@ class ScheduleView extends HookWidget {
                 controller: tabcontroller,
                 indicatorColor: appYellow,
                 tabs: [
-                  Tab(
-                    child: Center(
-                      child: Text(
-                        'Given',
-                        style: TextStyle(color: appYellow, fontSize: 15),
-                      ),
-                    ),
-                  ),
                   if (count == 2)
                     Tab(
                       child: Center(
                         child: Text(
-                          'Taken',
+                          'Given',
                           style: TextStyle(color: appYellow, fontSize: 15),
                         ),
                       ),
                     ),
+                  Tab(
+                    child: Center(
+                      child: Text(
+                        'Taken',
+                        style: TextStyle(color: appYellow, fontSize: 15),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
@@ -201,8 +201,8 @@ class ScheduleView extends HookWidget {
                                           contentPadding: EdgeInsets.zero,
                                           onTap: () {},
                                           title: Text(
-                                            model.appointmentTaken[index]
-                                                .fromName,
+                                            model
+                                                .appointmentTaken[index].toName,
                                             maxLines: 1,
                                             overflow: TextOverflow.ellipsis,
                                             style: TextStyle(
@@ -239,7 +239,7 @@ class ScheduleView extends HookWidget {
                                                   animType: AnimType.SCALE,
                                                   title: 'Are you sure?',
                                                   desc:
-                                                      'cheduled Appointment will be canceled',
+                                                      'Scheduled Appointment will be canceled',
                                                   btnOkText: 'Confirm',
                                                   btnCancelOnPress: () {},
                                                   btnOkOnPress: () => model
